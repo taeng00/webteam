@@ -1,0 +1,82 @@
+@import url('https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans-std/fonts/webfonts/variable/split/WantedSansStdVariable.min.css');
+
+* {
+  margin: 0;
+  list-style: none;
+  text-decoration: none !important;
+  font-family: 'GmarketSansMedium';
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url('../img/bg.jpg');
+  padding-bottom: 5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(2, 2, 2);
+}
+
+h1 {
+  text-align: center;
+  color: white !important;
+  margin-bottom: 0 !important;
+  padding: 50px;
+  font-weight: 800 !important;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto 0 auto;
+  padding-bottom: 5rem;
+  text-align: center;
+  width: 70%;
+  border-radius: 50px;
+}
+
+.contentsBox {
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+.cardBox {
+  background-color: rgba(250, 250, 250);
+  width: 30%;
+  border-radius: 20px;
+  margin: auto;
+}
+#myImage {
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 50px;
+}
+
+h2 {
+  margin-bottom: 0;
+  padding-top: 20px;
+  font-weight: 800 !important;
+}
+
+.myRow {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+}
+
+.boxTitle {
+  font-size: large;
+  font-weight: bold;
+}
+
+.myRow > li {
+  padding: 2px;
+  list-style: circle;
+}
+
+.accordion {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5px;
+}
